@@ -1,0 +1,47 @@
+<questions>
+  <question id="LC-ECQA2002-00002-01">
+    <text>東海地方に含まれる県はどこ？</text>
+    <answers>
+      <answer>愛知県</answer>
+      <answer>岐阜県</answer>
+      <answer>三重県</answer>
+      <answer>静岡県</answer>
+    </answers>
+    <meta>
+      <A.memo></A.memo>
+      <B1>どこ</B1>
+      <B2>A</B2>
+      <B3>地理</B3>
+      <B4>県</B4>
+      <B5>東海地方</B5>
+      <B6>国内地域名</B6>
+      <B7>県</B7>
+      <B.memo></B.memo>
+      <C1>Select ?x
+Where {
+東海地方	所属県		?x.
+}</C1>
+	    <C2></C2>
+      <Cmemo></Cmemo>
+      <D2>複数</D2>
+      <D3>都道府県州名</D3>
+      <D.memo></D.memo>
+      <E1>Y</E1>
+      <E2>a</E2>
+      <E3>東海地方</E3>
+      <E4>冒頭</E4>
+      <E5>愛知県、岐阜県、三重県、静岡県の4県を指す場合と、愛知県、岐阜県、三重県の3県を指す場合がある。</E5>
+      <E6></E6>
+      <E7></E7>
+      <E8></E8>
+      <Ememo></Ememo>
+      <F1>Y</F1>
+      <F2>Select ?province
+Where {
+?province jwo-prop:地方 jwo-instance:東海地方.
+?province rdf:type jwo-class:県
+}</F2>
+      <Fmemo>タイプ不足により解答が不完全</Fmemo>
+    </meta>
+  </question>
+</questions>
