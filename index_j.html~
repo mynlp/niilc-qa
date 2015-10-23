@@ -23,7 +23,7 @@
           <li class="fork"><a href="https://github.com/mynlp/niilc-qa">View On GitHub</a></li>
           <li class="downloads"><a href="https://github.com/mynlp/niilc-qa/zipball/master">ZIP</a></li>
           <li class="downloads"><a href="https://github.com/mynlp/niilc-qa/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
+          <li class="title">ダウンロード</li>
         </nav>
       </div><!-- end header -->
 
@@ -39,13 +39,11 @@
         </div>
 
         <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to our QA task Pages.</h3> <a href="http://mynlp.github.io/niilc-qa/index_j.html">日本語</a>
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>ようこそ</h3>
 
-<p>Thank you for your coming</p>
-<p>Our purpose is to build up a robust QA system not with simple ML mothod but with preferably the approach by series of possible logically steps.
-Especially using/via WIKIPedia knowledge.<p>
-<p>With this web site you can download our annotaion dataset!</p>
-<p>But NOW under construction! sorry!</p>
+<p>ここはQAタスクの紹介ページです。我々が作成したデータセットをダウンロードすることができます。</p>
+<p>ただいま準備中です。</p>
+<p>開設まで今しばらくお待ちください。</p>
 <p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
 
 <h3>
