@@ -23,7 +23,7 @@
           <li class="fork"><a href="https://github.com/mynlp/niilc-qa">View On GitHub</a></li>
           <li class="downloads"><a href="https://github.com/mynlp/niilc-qa/zipball/master">ZIP</a></li>
           <li class="downloads"><a href="https://github.com/mynlp/niilc-qa/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
+          <li class="title">ダウンロード</li>
         </nav>
       </div><!-- end header -->
 
@@ -39,10 +39,10 @@
         </div>
 
         <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to our QA task Pages.</h3> <a href="http://mynlp.github.io/niilc-qa/index_j.html">日本語</a>
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>QAタスクのページへようこそ</h3> <a href="http://mynlp.github.io/niilc-qa/">ENGLISH</a>
 
-<p>Thank you for your coming</p>
-<p>But NOW under construction! sorry!</p>
+<p>現在作成中です</p>
+<p></p>
 
 <div class="container">
     {{ content }}
