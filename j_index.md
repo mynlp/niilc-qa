@@ -1,5 +1,5 @@
 ---
-layout : default
+layout : j_default
 ---
 
 # NIILC 質問応答タグ付きデータセット
