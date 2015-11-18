@@ -2,43 +2,47 @@
 layout : default
 ---
 
-# NIILC 質問応答タグ付きデータセット
+# NIILC Question Answering Dataset
 
-質問応答は、自然言語処理の重要なアプリケーションの一つであり、多くの研
-究が行われてきました。しかし、これまで開発されたシステムの多くは、解答を得
-るまでのプロセスがブラックボックスであり、その解答が妥当なのか、信用してよ
-いのかどうかを人間が判断することができないことから、使い勝手のよいシステムとは言
-い難いものでした。
+Question Answering (QA) is a principal application of natural language
+processing, and many researchers have devoted their effort
+intensively.  However, most QA systems developed so far involve a
+blackbox process to obtain final answers.  Such systems prevent users
+from judging the appropriateness of obtained answers, and their
+practical usefuless have been limited.
 
-本データは、「解答を得るまでのプロセスを説明することができる質問応答シ
-ステム」の開発を目的として、データの分析やシステムの精度評価に利用する
-ための標準データとして整備を行ったものです。
-現在のバージョンでは、人間が百科事典を使えば解答が得られそうな比較的単純な質問を対象とし、
-それに対してさまざまなメタ情報を付与しています。
+This dataset is developed for supporting the development of QA systems
+that can explain the entire process of obtaining answers.  The current
+version targets simple questions that should be answered with an
+encyclopedia, and questions are annotated with meta information that
+supports the development of QA systems.
 
-## データの詳細
+## Details of the data
 
-質問文は、2002年に株式会社ランゲージ・クラフト研究所が株式会社小学館と
-の共同研究の際に、百科事典で解答が得られそうな質問として作業者が内省に
-より作成したものです。開発用データXX問、テストデータYY問が含まれています。
+Questions are taken from the data developed in the joint research by
+Language Craft and Shogakukan Inc.  Annotators manually crafted
+texts introspectively focusing on questions that could be answered
+using an encyclopedia.  The development set includes 800 questions,
+while the test set includes 200 questions.
 
-各質問文に対し、解答の他に、質問のタイプ、解答を得るための手がかり、解
-答が書かれている Wikipedia ページの情報等のメタ情報を人手で作成しました。
-また、慶應義塾大学山口高平教授の研究室で作成されたJWO(Japanese
-Wikipedia Ontology)で解答が得られる質問については、質問文を SPARQL 形
-式で表したデータも作成しています。
+In addition to questions and their answers, we manually annotated meta
+information such as question types, clues to obtain answers, Wikipedia
+pages in which answers can be found.  We additionally annotated SPARQL
+queries for questions that can be answered using
+[JWO (Japanese Wikipedia Ontology)](http://www.wikipediaontology.org)
+developed in Yamaguchi Lab. at Keio Univ.
 
-メタ情報の詳細やデータフォーマットについては、
-[質問応答タグ付データ 定義書](https://github.com/mynlp/niilc-qa/blob/master/data/NIILC-ECQA2015_AnnotationDefinition.md)
-をご参照ください。
+See
+[Definitions for Question Answering Tagged Dataset](https://github.com/mynlp/niilc-qa/blob/master/data/NIILC-ECQA2015_AnnotationDefinition.md)
+(in Japanese only) for the details of meta information and the data format.
 
 ## TODO
 
-* 解答データの精緻化（同義語を加える、等）
-* 精度測定プログラムの作成
-* データの拡充
+* Improve answer data (adding synonyms, etc.)
+* Develop an evaluation script
+* Extend data
 
-## 関連研究、データ
+## License
 
-TBA
+This dataset is distributed under Creative Commons License CC-BY-SA.
 
