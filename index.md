@@ -19,11 +19,9 @@ supports the development of QA systems.
 
 ## Details of the data
 
-Questions are taken from the data developed in the joint research by
-Language Craft and Shogakukan Inc.  Annotators manually crafted
-texts introspectively focusing on questions that could be answered
-using an encyclopedia.  The development set includes 800 questions,
-while the test set includes 200 questions.
+Human annotators manually developed question texts, supposing that
+they could be answered using an encyclopedia.  The development set
+includes 800 questions, while the test set includes 200 questions.
 
 In addition to questions and their answers, we manually annotated meta
 information such as question types, clues to obtain answers, Wikipedia
