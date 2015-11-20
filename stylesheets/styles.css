@@ -821,7 +821,7 @@ section #title .credits.right {
 }
 
 section #language {
-  float: right;
+  text-align: right;
 }
 
 @media print, screen and (max-width: 720px) {
