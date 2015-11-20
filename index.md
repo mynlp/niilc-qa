@@ -2,8 +2,6 @@
 layout : default
 ---
 
-# NIILC Question Answering Dataset
-
 Question Answering (QA) is a principal application of natural language
 processing, and many researchers have devoted their effort
 intensively.  However, most QA systems developed so far involve a
@@ -40,7 +38,20 @@ See
 * Develop an evaluation script
 * Extend data
 
+## Reference
+
+When you publish a paper using this dataset, please cite
+
+* Satoshi Sekine.  2003.
+  Development of a question answering system focused on an encyclopedia.
+  9th Annual Meeting of the Association for Natural Language
+  Processing. (in Japanese)
+
 ## License
 
 This dataset is distributed under Creative Commons License CC-BY-SA.
+
+## Acknowledgments
+
+This work was partially supported by JST PRESTO.
 
